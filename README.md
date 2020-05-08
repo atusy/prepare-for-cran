@@ -128,6 +128,14 @@ authors (year, ISBN:...)
 ```
 with no space after `https:`, `doi:`, `arXiv:` and angle brackets for auto-linking. 
 
+### Mention SystemRequirements if any
+
+If there is any extra softwares required to run the package, mention them with version numbers.
+
+```
+SystemRequirements: pandoc (>= 2.7.2) - http://pandoc.org
+```
+
 ## Documentation 
 
 ### All exported functions should have a return value
