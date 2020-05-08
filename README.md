@@ -135,6 +135,11 @@ with no space after `https:`, `doi:`, `arXiv:` and angle brackets for auto-linki
 All the exported functions in your package should have a `@return` value. 
 If a function does not return a value, document that too.
 
+### All exported functions should have examples
+
+All the exported functions in your package should have `@examples`. 
+If examples require extra dependencies such as file input/output, wrap them by `\dontrun{}`
+
 ### About \dontrun{} 
 
 `\dontrun{}` elements in the examples might in fact be run by CRAN. 
